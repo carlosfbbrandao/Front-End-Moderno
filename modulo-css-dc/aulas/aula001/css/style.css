@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: "voxbox";
+    src: url(../Fontes/voxbox/voxboxtitle.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-principal:'Lato', sans-serif;
+    --fonte-titulo01:"voxbox"
+}
+
+h2 {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: var(--fonte-principal);
+}
+
+h1 {
+    font-family: var(--fonte-titulo01);
+    font-variant: small-caps;
+}
