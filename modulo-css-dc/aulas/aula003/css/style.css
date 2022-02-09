@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+div.teset01 {
+
+    width: 400px;
+    height: 200px;
+    border: 5px solid black;
+    display: inline-block;
+    background-color: cyan;
+
+}
+
+div.teste02 {
+    box-sizing: border-box;
+    width: 400px;
+    height: 300px;
+    padding: 50px;
+    display: inline-block;
+    background-color: rgba(12, 240, 221, 0.61);
+
+}

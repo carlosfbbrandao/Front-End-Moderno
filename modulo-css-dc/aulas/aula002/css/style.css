@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+[name=titulo01] {
+    color: red;
+}
+
+[name=titulo02] {
+    color: green;
+}
+
+[name] {
+    color: blue;
+}
